@@ -339,14 +339,14 @@ elif selected_menu == "Category Prediction (Machine Learning)":
     # from sklearn.feature_extraction.text import TfidfVectorizer
 
     # Load pre-trained models
-    with open('C:/Users/Salma/Downloads/rf_model.pkl', 'rb') as rf_file:
+    with open('./rf_model.pkl', 'rb') as rf_file:
         rf_model = pickle.load(rf_file)
 
-    with open('C:/Users/Salma/Downloads/logistic_model.pkl', 'rb') as logistic_file:
+    with open('./logistic_model.pkl', 'rb') as logistic_file:
         logistic_model = pickle.load(logistic_file)
 
     # Load the vectorizer used during training
-    with open('C:/Users/Salma/Downloads/tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
+    with open('./tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
         tfidf_vectorizer = pickle.load(vectorizer_file)
 
     # Streamlit app
