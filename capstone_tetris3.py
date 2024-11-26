@@ -31,9 +31,9 @@ if selected_menu == "Home":
     st.write("[Instagram](https://www.instagram.com/snrhlz/)")
     from PIL import Image
 
-    # image_path = "D:\category_predict\jobstreet logo.png"
-    # image = Image.open(image_path)
-    # st.image(image, width=500)
+    image_path = "https://github.com/snrhlz01/category_predict/blob/main/jobstreet%20logo.png"
+    image = Image.open(image_path)
+    st.image(image, width=500)
 
     st.subheader("Problem and User")
     with st.expander("Problem"):
@@ -50,7 +50,7 @@ if selected_menu == "Home":
 """ )
 
     with st.expander("Flowchart"):
-        image_path = "C:/Users/Salma/Downloads/tetris_flow.png"
+        image_path = "https://github.com/snrhlz01/category_predict/blob/main/tetris_flow.png"
         image = Image.open(image_path)
         st.image(image, width=800)
         
