@@ -31,7 +31,7 @@ if selected_menu == "Home":
     st.write("[Instagram](https://www.instagram.com/snrhlz/)")
     from PIL import Image
 
-    image_path = "https://github.com/snrhlz01/category_predict/blob/main/jobstreet%20logo.png"
+    image_path = "https://github.com/snrhlz01/category_predict/blob/main/jobstreet logo.png"
     image = Image.open(image_path)
     st.image(image, width=500)
 
