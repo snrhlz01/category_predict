@@ -14,7 +14,7 @@ st.set_page_config(layout='wide')
 
 github_url = "https://github.com/snrhlz01/category_predict/raw/main/combine_table_withzero.csv"
 
-# Membaca dataset dari URL
+# Membaca dataset dari URLp
 df = pd.read_csv(github_url)
 
 #print(df.head())
@@ -336,7 +336,7 @@ elif selected_menu == "Rank Companies by Stars":
 elif selected_menu == "Category Prediction (Machine Learning)":
 
     # Load pre-trained models
-    from sklearn.feature_extraction.text import TfidfVectorizer
+    # from sklearn.feature_extraction.text import TfidfVectorizer
 
     # Load pre-trained models
     with open('C:/Users/Salma/Downloads/rf_model.pkl', 'rb') as rf_file:
