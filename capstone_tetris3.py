@@ -336,7 +336,7 @@ elif selected_menu == "Rank Companies by Stars":
 elif selected_menu == "Category Prediction (Machine Learning)":
 
     # Load pre-trained models
-    # from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.feature_extraction.text import TfidfVectorizer
 
     # Load pre-trained models
     with open('./rf_model.pkl', 'rb') as rf_file:
